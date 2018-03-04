@@ -29,7 +29,7 @@ hr {
     color: #494949;
 }
 .dark-text a {
-    color: #49cad4;
+    color: #63aaff;
 }
 .footer {
   background-color: #f5f5f5;
@@ -117,7 +117,7 @@ hr {
 .navbar-default .navbar-nav > .active-custom > a,
 .navbar-default .navbar-nav > .active-custom > a:hover,
 .navbar-default .navbar-nav > .active-custom > a:focus {
-    color: #49cad4;
+    color: #63aaff;
 }
 .navbar-default .navbar-nav > li > a {
     color: #6f6f6f;
@@ -185,7 +185,7 @@ hr {
     padding: 10px;
 }
 .strong-colored-text {
-    color: #49cad4;
+    color: #63aaff;
 }
 .title {
     font-family: 'Prompt';
