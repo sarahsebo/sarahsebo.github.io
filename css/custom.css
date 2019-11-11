@@ -21,7 +21,14 @@ hr {
     margin: 10px 0px;
 }
 .centered-body {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 1350px) {
+  .centered-body{
     margin: 0px 175px;
+  }
 }
 @media (max-width: 768px) {
   .centered-body{
