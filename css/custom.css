@@ -191,6 +191,12 @@ hr {
 }
 .research-project-img {
     padding: 14px 30px;
+    text-align: center;
+}
+.research-project-img img{
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .research-project-text {
     padding: 10px;
