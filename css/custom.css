@@ -25,7 +25,7 @@ hr {
     margin-right: auto;
     margin-left: auto;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
   .centered-body{
     margin: 0px 100px;
   }
