@@ -35,6 +35,9 @@ hr {
     margin: 0px 50px;
   }
 }
+.calendar {
+    text-align: center;
+}
 .dark-text {
     color: #494949;
 }
