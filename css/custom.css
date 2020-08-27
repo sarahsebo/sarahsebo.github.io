@@ -38,6 +38,10 @@ hr {
 .calendar {
     text-align: center;
 }
+.contact-img img {
+    display: block;
+    max-width: 100%;
+}
 .dark-text {
     color: #494949;
 }
@@ -66,6 +70,10 @@ hr {
     line-height: 16px;
     padding: 9px 0px;
     width: 33%;
+}
+.footer-sebo-copyright {
+    text-align: center;
+    padding-top: 5px;
 }
 .footer-social-media-icons {
     float: left;
@@ -206,6 +214,14 @@ hr {
 }
 .strong-colored-text {
     color: #1B9CE5;
+}
+.teaching-class {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.teaching-img img {
+    display: block;
+    max-width: 100%;
 }
 .title {
     font-family: 'Prompt';
