@@ -1,163 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sarah Sebo</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarah Sebo</title>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="https://mc-1b49d921-43a2-4264-88fd-647979-cdn-endpoint.azureedge.net/dist/intranet/favicon.ico">
+  <link rel="shortcut icon" href="https://mc-1b49d921-43a2-4264-88fd-647979-cdn-endpoint.azureedge.net/dist/intranet/favicon.ico">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <!-- Boostrap Social -->
-    <link href="css/bootstrap-social.css" rel="stylesheet">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153732727-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-153732727-1');
+  </script>
 
-    <!-- Font Awesome -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<!--     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <!-- My CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+  <!-- NAV -->
+  <nav id="site-nav">
+    <div class="vc">
+      <a href="#about" class="nav-name">Sarah Sebo</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#apply">Join My Lab</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#people">Advising</a></li>
+        <li><a href="https://hri.cs.uchicago.edu/" target="_blank" class="nav-lab">HRI LAB</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153732727-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- ABOUT / HERO -->
+  <section id="about">
+    <div class="vc">
+      <div class="hero-text">
+        <h1>Sarah Sebo</h1>
+        <div class="hero-pos">Assistant Professor &middot; University of Kansas &middot; EECS</div>
+        <p>I am an Assistant Professor of <a href="https://eecs.ku.edu/">Electrical Engineering and Computer Science</a> at the <a href="https://ku.edu/">University of Kansas</a> where I direct the <a href="https://hri.cs.uchicago.edu/">Human-Robot Interaction (HRI) Lab</a>. My research explores social dynamics in human-robot interactions. I explore how a robot's social behavior can be designed to best help people in the places they live, learn, and work — tutoring children at school, assisting around the home, and supporting teams in making decisions.</p>
 
-      gtag('config', 'UA-153732727-1');
-    </script>
+        <!-- <p>
+          Prior to joining the faculty at the University of Kansas, I was an Assistant Professor at the University of Chicago. I earned my Ph.D. from Yale University and my B.S. from Olin College of Engineering.
+        </p> -->
+        <div class="hero-links">
+          <a href="mailto:sarah.sebo@ku.edu"><i class="fas fa-envelope"></i> Email</a>
+          <a href="documents/Sarah_Sebo_CV_06_2026.pdf" target="_blank"><i class="fas fa-file-alt"></i> CV</a>
+          <a href="https://scholar.google.com/citations?user=6gWYMigAAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="https://hri.cs.uchicago.edu/" target="_blank"><i class="fas fa-flask"></i> HRI Lab</a>
+        </div>
+      </div>
+      <img src="img/index/2025_08_Sarah_Sebo_ITL_v2.jpg" alt="Sarah Sebo">
+    </div>
+  </section>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- JOINING MY LAB -->
+  <section id="apply" class="body-sec">
+    <div class="vc">
+      <h2 class="sec-title">Joining My Lab</h2>
+      <div class="sec-rule"></div>
+      <div class="apply-box">
+        <p>I am <strong>actively recruiting motivated undergraduate, master's, and PhD students</strong> to join my lab. <strong><a href="https://hri.cs.uchicago.edu/pages/join-us.html">Click here</a></strong> for more information on how to apply and don't hesitate to reach out to me at <a href="mailto:sarah.sebo@ku.edu">sarah.sebo@ku.edu</a>.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Nav -->
-    <div id="nav-placeholder"></div>
-      <script>
-      $(function(){
-        $("#nav-placeholder").load("nav.html");
+  <!-- RESEARCH -->
+  <section id="research" class="body-sec">
+    <div class="vc">
+      <h2 class="sec-title">Research</h2>
+      <div class="sec-rule"></div>
+
+      <!-- Part 1: Research topic cards -->
+      <h3 class="research-sub-title">Research Directions</h3>
+      <div class="research-grid">
+        <div class="research-card">
+          <img src="img/research/Sebo Lab_ITL_robot_personality_human_view_SLG.jpg" alt="Building Positive Human-Robot Relationships">
+          <div class="rc-body">
+            <h4>Building Positive Human-Robot Relationships</h4>
+            <p>Studying robot behaviors that can build rapport and connections with people to improve interaction outcomes</p>
+          </div>
+        </div>
+        <div class="research-card">
+          <img src="img/research/Sebo Lab_ITL_helping_game_Tess_SLG.jpg" alt="Robots for Education">
+          <div class="rc-body">
+            <h4>Robots for Education</h4>
+            <p>Exploring how robots can leverage social behavior and create low-judgment spaces to support student learning</p>
+          </div>
+        </div>
+        <div class="research-card">
+          <img src="img/research/Sebo Lab_ITL_hr_group_SLG.jpg" alt="Robots and Group Dynamics">
+          <div class="rc-body">
+            <h4>Robots and Group Dynamics</h4>
+            <p>Investigating how robots can influence and enhance human-human interactions and team performance</p>
+          </div>
+        </div>
+        <div class="research-card">
+          <img src="img/research/Sebo Lab_ITL_Nao_SLG.jpg" alt="Robot Autonomy and Social Agency">
+          <div class="rc-body">
+            <h4>Robot Autonomy and Social Agency</h4>
+            <p>Examining why people perceive a robot as a social agent versus a machine and how these perceptions affect H-R interactions</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part 2: Video -->
+      <h3 class="research-sub-title">Featured Video</h3>
+      <div class="video-wrap">
+        <iframe src="https://www.youtube.com/embed/BnQJpNBetAM?si=ixrvO_ZeGDe-4RBL" title="Sarah Sebo research video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <!-- Part 3: Highlighted Publications -->
+      <h3 class="research-sub-title">Highlighted Publications</h3>
+      <p style="font-size:14px; color:#444; margin-bottom:4px;">A full list of my publications can be found on <a href="https://scholar.google.com/citations?user=6gWYMigAAAAJ" target="_blank">Google Scholar</a>. Here are some selected recent highlights:</p>
+
+      <div class="pub">
+        <span class="pub-venue">HRI 2026</span>
+        Lauren L. Wright, Kaitlyn Li, Hewitt Watkins, Kiljoong Kim, and Sarah Sebo. <a href="https://hri.cs.uchicago.edu/publications/HRI_2026_Wright_Fictional_vs_Factual.pdf" target="_blank">Fictional vs. Factual Robot Tutor Dialogue Can Shape Child Social-Emotional Learning</a>.
+        <span class="award">&#x2605; Best Paper Award: User Studies</span>
+      </div>
+
+      <div class="pub">
+        <span class="pub-venue">Science Robotics 2025</span>
+        Lauren L. Wright, Pooja Vegesna, Joseph E. Michaelis, Bilge Mutlu, and Sarah Sebo. <a href="https://hri.cs.uchicago.edu/publications/Wright_2025_robotic_reading_companions.pdf" target="_blank">Robotic Reading Companions Can Mitigate Oral Reading Anxiety in Children</a>.
+      </div>
+
+      <div class="pub">
+        <span class="pub-venue">HRI 2025</span>
+        Alex Wuqi Zhang, Rafael Queiroz, and Sarah Sebo. <a href="https://hri.cs.uchicago.edu/publications/HRI_2025_Zhang_Balancing_User_Control_and_Perceived_Robot_Social_Agency_through_the_Design_of_End_User_Robot_Programming_Interfaces.pdf" target="_blank">Balancing User Control and Perceived Robot Social Agency through the Design of End-User Robot Programming Interfaces</a>.
+        <span class="award">&#x2605; Best Paper Honorable Mention: User Studies</span>
+      </div>
+
+      <div class="pub">
+        <span class="pub-venue">HRI 2025</span>
+        Ting-Han Lin, Hannah Dinner, Tsz Long Leung, Bilge Mutlu, J. Gregory Trafton, and Sarah Sebo. <a href="https://hri.cs.uchicago.edu/publications/HRI_2025_Lin_Connection_Coordination_Rapport_CCR_Scale_A_Dual_Factor_Scale_to_Measure_Human_Robot_Rapport.pdf" target="_blank">Connection-Coordination Rapport (CCR) Scale: A Dual-Factor Scale to Measure Human-Robot Rapport</a>.
+      </div>
+
+      <div class="pub">
+        <span class="pub-venue">HRI 2024</span>
+        Stephanie Kim, Jacy Reese Anthis, and Sarah Sebo. <a href="https://dl.acm.org/doi/10.1145/3610977.3634993" target="_blank">A Taxonomy of Robot Autonomy for Human-Robot Interaction</a>.
+        <span class="award">&#x2605; Best Paper Honorable Mention: Theory &amp; Methods</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="body-sec">
+    <div class="vc">
+      <h2 class="sec-title">Teaching</h2>
+      <div class="sec-rule"></div>
+
+      <div class="course">
+        <img src="img/teaching/tb4_with_arm.jpg" alt="Introduction to Robotics">
+        <div>
+          <h4>Introduction to Robotics</h4>
+          <p>Hands-on introduction to robot programming covering sensing, sensory-motor control, state estimation, localization, kinematics, vision, and reinforcement learning. Students program physical robots across three mini-projects and one final project.</p>
+          <p style="margin-top:6px; color:#aaa; font-size:12px;"><a href="https://classes.cs.uchicago.edu/archive/2025/fall/20600-1/index.html" target="_blank">Fall 2025</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2024/spring/20600-1/index.html" target="_blank">Spring 2024</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2023/fall/20600-1/index.html" target="_blank">Fall 2023</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2022/fall/20600-1/index.html" target="_blank">Fall 2022</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2022/spring/20600-1/" target="_blank">Spring 2022</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2021/spring/20600-1/" target="_blank">Spring 2021</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2021/winter/20600-1/" target="_blank">Winter 2021</a></p>
+        </div>
+      </div>
+
+      <div class="course">
+        <img src="img/teaching/misty_and_child.jpg" alt="Human-Robot Interaction: Research and Practice">
+        <div>
+          <h4>Human-Robot Interaction: Research and Practice</h4>
+          <p>Broad survey of cutting-edge HRI research and implementation of a HRI user study. Topics include nonverbal and verbal behavior, social dynamics, norms &amp; ethics, collaboration, and real-world applications. Students lead discussions and complete a team research project.</p>
+          <p style="margin-top:6px; color:#aaa; font-size:12px;"><a href="https://classes.cs.uchicago.edu/archive/2026/spring/20630-1/index.html" target="_blank">Spring 2026</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2025/spring/20630-1/" target="_blank">Spring 2025</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2024/winter/20630-1/" target="_blank">Winter 2024</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2023/winter/33281-1/" target="_blank">Winter 2023</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2021/fall/33281-1/index.html" target="_blank">Fall 2021</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2020/fall/33281-1/" target="_blank">Fall 2020</a></p>
+        </div>
+      </div>
+
+      <div class="course">
+        <img src="img/teaching/calculator_robot_human.png" alt="Topics in Human-Robot Interaction">
+        <div>
+          <h4>Topics in Human-Robot Interaction</h4>
+          <p>Seminar investigating a specific HRI research question, varying each offering. Students read, present, and write about relevant research, culminating in a final research paper.</p>
+          <p style="margin-top:6px; color:#aaa; font-size:12px;"><a href="https://classes.cs.uchicago.edu/archive/2025/fall/33281-1/index.html" target="_blank">Fall 2025</a></p>
+        </div>
+      </div>
+
+      <div class="course">
+        <img src="img/teaching/robotics_programming_design.JPG" alt="Introduction to Robot Programming and Design">
+        <div>
+          <h4>Introduction to Robot Programming &amp; Design <br/><span style="font-weight:400; color:#aaa; font-size:13px;">(6-week Summer Course for Chicago High School Students)</span></h4>
+          <p>Hands-on introduction to designing and programming robots for students with little to no prior programming experience. Students build ClicBot robots, design behavior using Blockly, and complete a final collaborative project addressing a societal problem.</p>
+          <p style="margin-top:6px; color:#aaa; font-size:12px;"><a href="https://classes.cs.uchicago.edu/archive/2025/summer/irpd/" target="_blank">Summer 2025</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2024/summer/irpd/" target="_blank">Summer 2024</a> &middot; <a href="https://classes.cs.uchicago.edu/archive/2023/summer/irpd/" target="_blank">Summer 2023</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PEOPLE -->
+  <section id="people" class="body-sec">
+    <div class="vc">
+      <h2 class="sec-title">Advising</h2>
+      <div class="sec-rule"></div>
+      <div class="people-group">
+        <h4>Current Advisees</h4>
+        <ul>
+          <li><a href="https://datascience.uchicago.edu/people/teresa-flanagan/" target="_blank">Teresa Flanagan</a> <span class="advisee-role">Postdoctoral Scholar</span></li>
+          <li><a href="https://computerscience.uchicago.edu/people/wuqi-zhang/" target="_blank">Alex Wuqi Zhang</a> <span class="advisee-role">PhD Student</span></li>
+          <li><a href="https://laulawri.github.io/" target="_blank">Lauren L. Wright</a> <span class="advisee-role">PhD Student</span></li>
+          <li><a href="https://tinghanlin.com/" target="_blank">Ting-Han Lin</a> <span class="advisee-role">PhD Student</span></li>
+          <li><a href="https://jwnmn.github.io/" target="_blank">Jiwon Moon</a> <span class="advisee-role">PhD Student</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="vc">&copy; Sarah Sebo</div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.querySelector('#nav-menu');
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    menu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        menu.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
       });
-      </script>
-
-
-    <!-- PAGE SPECIFIC CONTENT -->
-
-    <!-- Picture and research interest description -->
-    <div class="centered-body">
-      <div class="row">
-        <div class="col-md-4">
-              <div class="main-image">
-                  <img src="img/index/2025_08_Sarah_Sebo_ITL_v2.jpg" alt="Sarah Sebo">
-              </div>
-        </div>
-        <div class="col-md-8">
-              <div class="main-page-description dark-text">
-
-                  <p>I am an Assistant Professor of <a href="https://computerscience.uchicago.edu/" target="_blank">Computer Science</a> at the <a href="https://www.uchicago.edu/" target="_blank">University of Chicago</a> where I direct the <a href="https://hri.cs.uchicago.edu/">UChicago Human-Robot Interaction (HRI) Lab</a>.</p>
-
-                  <!-- <p>I received my PhD in Computer Science from <a href="http://www.yale.edu/" target="_blank">Yale University</a> in 2020 and my Bachelors in Electrical and Computer Engineering from <a href="https://www.olin.edu/">Franklin W. Olin College of Engineering</a> in 2014.</p> -->
-
-                  <p>My current research explores <b>social dynamics</b> in <b>human-robot interactions</b>. I design social robots that can shape human-to-human interactions, enable long-term human-robot social relationships, and build a fundamental understanding of how to engineer human-like social interactions. My research demonstrates real impact in people's everyday lives through the design and development of robots  for use in education, within collaborative teams, and in the home. I encourage you to learn more about my current work by visiting <a href="https://hri.cs.uchicago.edu/">my lab website</a>.</p>
-
-                  <!-- I seek to transform interactions with robots that are stale, scripted, and transactional to interactions that feel more like talking to a friend - socially engaging, intuitive, and meaningful. -->
-
-                    <!-- During my PhD, I focused on developing robots that improve the performance of human-robot teams by shaping team dynamics to promote inclusion, trust, and cohesion.</p> -->
-
-                  <p><b>I am currently looking for motivated undergraduate and graduate students interested in human-robot interaction. If you are interested in getting involved with my research group, <a href="https://hri.cs.uchicago.edu/pages/join-us.html">click here</a></b>.</p>
-
-              </div>
-        </div>
-      </div>
-
-
-      <h3>Featured Work</h3>
-
-      <hr/>
-
-      <div class="row">
-        <div class="col-md-12">
-          <p class="dark-text main-page-description">
-            My lab seeks to design robots that can better help people and was recently featured in UChicago's Inside the Lab series (see video below). Our recent work, published in Science Robotics, highlights the potential for social robots to support children's learning in educational settings by demonstrating that robots can create "safe spaces" for children to learn, where <a href="https://hri.cs.uchicago.edu/publications/Wright_2025_robotic_reading_companions.pdf">children experience less anxiety engaging with robots compared with humans</a>.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-          <div class="videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BnQJpNBetAM?si=ixrvO_ZeGDe-4RBL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-2">
-        </div>
-      </div>
-
-<!--       <div class="row">
-        <div class="col-md-12">
-          <p class="dark-text main-page-description">
-            My recent work investigating strategies for the inclusion of human members in human-robot teams was recently accepted to the ACM/IEEE International Conference on Human-Robot Interaction (HRI 2020). The two strategies I explored are: 1) a specialized role to interact with the robot and 2) supportive utterances from the robot. Check out the following video for more details on this work.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-          <div class="videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NMzkNoHFwIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-2">
-        </div>
-      </div> -->
-
-
-
-      <!-- News Items -->
-
-      <!-- <h3>Recent News</h3>
-
-      <hr/>
-
-      <div class="news-index">
-
-
-        <br/>
-
-      </div> -->
-    </div>
-
-    <br/>
-
-    <!-- END PAGE SPECIFIC CONTENT -->
-
-    <!-- footer -->
-    <div class="footer">
-      <div class="centered-body">
-        <div class="row footer-sebo-copyright">
-              &#169; Sarah Sebo
-        </div>
-      </div>
-    </div>
-
-
-
-  </body>
+    });
+  </script>
+</body>
 </html>
