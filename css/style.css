@@ -58,9 +58,15 @@ section { scroll-margin-top: 66px; }
   padding-bottom: 64px;
   display: grid;
   grid-template-columns: 1fr 240px;
-  gap: 52px;
-  align-items: center;
+  grid-template-areas:
+    "top    img"
+    "bottom img";
+  column-gap: 52px;
+  row-gap: 0;
 }
+.hero-top { grid-area: top; align-self: end; }
+.hero-bottom { grid-area: bottom; align-self: start; }
+#about img { grid-area: img; align-self: center; }
 .hero-text h1 {
   font-size: 44px;
   font-weight: 700;
@@ -314,13 +320,20 @@ footer {
 @media (max-width: 800px) {
   #about .vc {
     grid-template-columns: 1fr;
-    gap: 32px;
+    grid-template-areas:
+      "top"
+      "img"
+      "bottom";
+    gap: 20px;
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  #about img { max-width: 200px; }
+  #about img { max-width: 300px; margin: 0 auto; }
   .hero-text h1 { font-size: 34px; }
-  .research-grid { grid-template-columns: 1fr; }
+  .research-grid { grid-template-columns: 1fr; padding: 0 28px; }
+  .course-list { padding: 0 28px; }
+  .course { grid-template-columns: 1fr; gap: 14px; }
+  .course img { height: 200px; }
   .people-cols { grid-template-columns: 1fr; gap: 32px; }
 }
 @media (max-width: 700px) {
